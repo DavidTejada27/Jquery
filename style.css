@@ -1,0 +1,15 @@
+body{
+    width: 100%;
+    height: fit-content;
+    border: 5px solid black;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex; 
+    flex-wrap: wrap;
+    
+}
+.draggable { display: flex; width: 150px; height: 150px; padding: 0.5em; border: 2px dotted black; justify-content: center; align-items: center; }
